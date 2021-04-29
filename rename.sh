@@ -1,7 +1,7 @@
 #! /bin/bash
 
 
-cd furnished
+cd empty
 
 declare -i x=0
 for f in *.jpg
@@ -10,5 +10,4 @@ do
     x=$((x+1))
 done
 
-echo " "
 echo "DONE"
