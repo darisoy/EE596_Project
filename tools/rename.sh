@@ -1,7 +1,7 @@
 #! /bin/bash
 
 
-cd empty
+cd ../data/furnished_pruned
 
 declare -i x=0
 for f in *.jpg
